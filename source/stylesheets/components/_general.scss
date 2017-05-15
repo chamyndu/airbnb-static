@@ -1,0 +1,85 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/form.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+img {
+  border: 0px;
+}
+
+blockquote {
+  margin-bottom: 0px;
+}
+
+.container [type="submit"] {
+  width: 100%;
+}
+.list-inline li {
+  display: inline-block;
+}
+.list-inline {
+  list-style: none;
+}
+
+.feature {
+  align-content: center;
+}
+
+.features img {
+  padding: 20px;
+}
+
+
+.padded {
+  padding: 100px 0;
+}
+
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
+.center {
+  text-align: center;
+}
+
+.wrapper-red {
+  margin-top: 50px;
+  background: #4B4A5A;
+  color: white;
+}
+
+.row {
+  margin-bottom: 60px;
+}
+
+.item-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
