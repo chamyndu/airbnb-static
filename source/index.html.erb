@@ -22,31 +22,33 @@
             </div>
         </div>
 
+
+      <!--   <ul class="list-inline text-center">
+          <% ["luke", "james", "chamy"].each do |member| %>
+            <li>
+              <%= image_tag "#{member}.jpg", class: "avatar-lg" %>
+              <h3><%= member.capitalize %></h3>
+            </li>
+          <% end %>
+        </ul>
+      <-->
                 <!-- Your features code <-->
+
+
+
         <div class="container">
           <div class="row">
             <!-- all you cols -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="feature center">
-                <img src="images/cake.png" alt="">
-                <h3>It's my</h3>
-                <h2>Birthday</h2>
+            <% ["gift", "ribbon", "cake"].each do |member| %>
+
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="feature center">
+                  <%= image_tag "#{member}.png" %>
+                  <h3>It's my</h3>
+                  <h2>Birthday</h2>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="feature center">
-                <img src="images/gift.png" alt="">
-                <h3>It's my</h3>
-                <h2>Birthday</h2>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="feature center">
-                <img src="images/ribbon.png" alt="">
-                <h3>It's my</h3>
-                <h2>Birthday</h2>
-              </div>
-            </div>
+            <% end %>
           </div>
         </div>
 
@@ -63,7 +65,7 @@
                       <h2>My Home</h2>
                       <p>Charming room with patio</p>
                     </div>
-                    <img class="card-user avatar avatar-large" src="images/chamy.jpg">
+                    <div class="card-user avatar" style="background-image: url('images/chamy.jpg')"></div>
                     <a class="card-link" href="#"></a>
                   </div>
                 </div>
@@ -75,7 +77,7 @@
                       <h2>My Home</h2>
                       <p>Charming room with patio</p>
                     </div>
-                    <img class="card-user avatar avatar-large" src="images/james.jpg">
+                    <div class="card-user avatar" style="background-image: url('images/james.jpg')"></div>
                     <a class="card-link" href="#"></a>
                   </div>
                 </div>
@@ -87,7 +89,7 @@
                       <h2>My Home</h2>
                       <p>Charming room with patio</p>
                     </div>
-                    <img class="card-user avatar avatar-large" src="images/luke.jpg">
+                    <div class="card-user avatar" style="background-image: url('images/luke.jpg')"></div>
                     <a class="card-link" href="#"></a>
                   </div>
                 </div>
