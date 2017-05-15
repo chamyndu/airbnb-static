@@ -1,0 +1,19 @@
+.wrapper-red {
+  margin-top: 50px;
+  background: #4B4A5A;
+  color: white;
+}
+
+.item-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+.list-inline {
+  list-style: none;
+}
